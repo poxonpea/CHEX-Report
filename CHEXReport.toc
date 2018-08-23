@@ -5,4 +5,5 @@
 \contentsline {subsection}{\numberline {3.2}Comparing Wave Function}{3}
 \contentsline {subsection}{\numberline {3.3}Comparing Lane Potential}{5}
 \contentsline {subsection}{\numberline {3.4}Comparing Spin 0}{6}
-\contentsline {subsection}{\numberline {3.5}Comparing full expression}{6}
+\contentsline {subsection}{\numberline {3.5}Comparing formalism for full expression}{7}
+\contentsline {subsection}{\numberline {3.6}Comparing results for full expression}{9}

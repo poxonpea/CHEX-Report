@@ -139,9 +139,48 @@ We also wanted to prove that we were calucating the Lane potential conistently w
 
 \subsection{Comparing Spin 0}
 
-\subsection{Comparing full expression}
+Before comparing the full calculations between Danielewicz and CHEX, we can consider a further simplied case of a spin 0 projectile.  This unphysical approximation collapses many of the sums in our calculation and further simplifies the expression.  To complete this calcualtion you need to alter both codes slightly.  In the code by Danielewicz et al., one needs to "turn off" the spin orbit force, modufy the sums in the "GENAL" routine to exclode the sums over J, and comment out the final division by 2 that takes spin averaging into account.  In CHEX, one needs to modify in two places to exclude the spin orbit forces: first in the "local\_scattering\_potential.f90" file that calculates the wavefunctions and in the "NN\_pot\_val.f90" file that calculates the lane potnential. One can set the spin of the projectile in the inpute file.  Then there is just a little edditing that must be done to arrays that store J information because of the way that they are indexed.  The final result is shown below and gives aggreement between both methods.
 
+\begin{figure}[H]
+	\centering 
+    \includegraphics[width=0.7\textwidth]{Spin0.png}
+    \caption{Comparing the cross section angular distribution results from CHEX and Danielewicz et al. for the case of a spin 0 projectile.}
+    \label{fig:spin0}
+\end{figure}
 
+\subsection{Comparing formalism for full expression}
+
+Next we compared the cormalism for the full expressions with a spin 1/2 projectile.  This was done using mathematica.  Below are calculations that compare the two expressions for the differential cross section for $L=0$ and then again for $L \le 10$ which serves to show equality for all L values.  Note that the difference in $k$ factors is a result of the fact that $\frac{1}{k}$ factors are absorbed into the Danielewicz et al wave functions.  
+
+\begin{figure}[H]
+	\centering 
+    \includegraphics[width=1\textwidth]{PawelL0formalism.JPG}
+    \caption{Expression for the differential cross section produced by Danielewicz et al formalsim for the case of L=0}
+    \label{fig:spin0}
+\end{figure}
+
+\begin{figure}[H]
+	\centering 
+    \includegraphics[width=1\textwidth]{TerriL0formalism.JPG}
+    \caption{Expression for the differential cross section produced by CHEX formalism et al for the case of L=0}
+    \label{fig:spin0}
+\end{figure}
+
+\begin{figure}[H]
+	\centering 
+    \includegraphics[width=1\textwidth]{PawelfullLformalism.JPG}
+    \caption{Expression for the differential cross section produced by Danielewicz et al. formalism et al for the case of $L \le 0$}
+    \label{fig:spin0}
+\end{figure}
+
+\begin{figure}[H]
+	\centering 
+    \includegraphics[width=1\textwidth]{TerrifullLformalism.JPG}
+    \caption{Expression for the differential cross section produced by CHEX formalism et al for the case of $L \le 0$}
+    \label{fig:spin0}
+\end{figure}
+
+\subsection{Comparing results for full expression}
 
 \bibliographystyle{plain}
 \bibliography{references}

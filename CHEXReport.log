@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.19)  21 AUG 2018 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.1.19)  23 AUG 2018 10:32
 entering extended mode
 **"H:/Documents/Research/CHEX Report/CHEXReport.tex"
 ("H:/Documents/Research/CHEX Report/CHEXReport.tex"
@@ -234,6 +234,18 @@ G,.JBIG2,.JB2,.eps]
 
 LaTeX Warning: Label `fig:imwfcompare' multiply defined.
 
+
+LaTeX Warning: Label `fig:spin0' multiply defined.
+
+
+LaTeX Warning: Label `fig:spin0' multiply defined.
+
+
+LaTeX Warning: Label `fig:spin0' multiply defined.
+
+
+LaTeX Warning: Label `fig:spin0' multiply defined.
+
 )
 \openout1 = `CHEXReport.aux'.
 
@@ -313,16 +325,16 @@ LaTeX Warning: No \author given.
 \tf@toc=\write3
 \openout3 = `CHEXReport.toc'.
 
- <Coordinates.png, id=1, 738.1176pt x 206.2104pt>
+ [1
+
+{C:/Users/poxonpea/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] <Coordin
+ates.png, id=12, 738.1176pt x 206.2104pt>
 File: Coordinates.png Graphic file (type png)
 
 <use Coordinates.png>
 Package pdftex.def Info: Coordinates.png used on input line 51.
 (pdftex.def)             Requested size: 345.58643pt x 96.5476pt.
- [1
-
-{C:/Users/poxonpea/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <./Co
-ordinates.png>]
+ [2 <./Coordinates.png>]
 <InWfComp.jpg, id=20, 794.97pt x 614.295pt>
 File: InWfComp.jpg Graphic file (type jpg)
  <use InWfComp.jpg>
@@ -340,17 +352,51 @@ File: ComparingLaneFigure.jpg Graphic file (type jpg)
 <use ComparingLaneFigure.jpg>
 Package pdftex.def Info: ComparingLaneFigure.jpg used on input line 135.
 (pdftex.def)             Requested size: 345.58643pt x 267.04744pt.
- [5 <./ImWFComp.jpg>] (CHEXReport.bbl) [6 <./ComparingLaneFigure.jpg>] (CHEXRep
-ort.aux)
+ [5 <./ImWFComp.jpg>]
+<Spin0.png, id=36, 343.5234pt x 266.9172pt>
+File: Spin0.png Graphic file (type png)
+ <use Spin0.png>
+Package pdftex.def Info: Spin0.png used on input line 146.
+(pdftex.def)             Requested size: 345.58643pt x 268.53752pt.
+ [6 <./ComparingLaneFigure.jpg>] <PawelL0formalism.JPG, id=40, 1312.905pt x 237
+.13594pt>
+File: PawelL0formalism.JPG Graphic file (type jpg)
+
+<use PawelL0formalism.JPG>
+Package pdftex.def Info: PawelL0formalism.JPG used on input line 157.
+(pdftex.def)             Requested size: 493.69707pt x 89.1718pt.
+
+<TerriL0formalism.JPG, id=41, 1242.89343pt x 386.19281pt>
+File: TerriL0formalism.JPG Graphic file (type jpg)
+
+<use TerriL0formalism.JPG>
+Package pdftex.def Info: TerriL0formalism.JPG used on input line 164.
+(pdftex.def)             Requested size: 493.69707pt x 153.40189pt.
+ [7 <./Spin0.png> <./PawelL0formalism.JPG>]
+<PawelfullLformalism.JPG, id=47, 1357.32094pt x 377.91188pt>
+File: PawelfullLformalism.JPG Graphic file (type jpg)
+
+<use PawelfullLformalism.JPG>
+Package pdftex.def Info: PawelfullLformalism.JPG used on input line 171.
+(pdftex.def)             Requested size: 493.69707pt x 137.45518pt.
+
+<TerrifullLformalism.JPG, id=48, 1380.65813pt x 424.58624pt>
+File: TerrifullLformalism.JPG Graphic file (type jpg)
+
+<use TerrifullLformalism.JPG>
+Package pdftex.def Info: TerrifullLformalism.JPG used on input line 178.
+(pdftex.def)             Requested size: 493.69707pt x 151.82082pt.
+ [8 <./TerriL0formalism.JPG> <./PawelfullLformalism.JPG>] (CHEXReport.bbl) [9 <
+./TerrifullLformalism.JPG>] (CHEXReport.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3170 strings out of 493634
- 42823 string characters out of 3141305
- 113929 words of memory out of 3000000
- 6471 multiletter control sequences out of 15000+200000
+ 3198 strings out of 493634
+ 43426 string characters out of 3141305
+ 113937 words of memory out of 3000000
+ 6493 multiletter control sequences out of 15000+200000
  16760 words of font info for 62 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,7n,26p,1400b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -368,9 +414,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on CHEXReport.pdf (6 pages, 335021 bytes).
+Output written on CHEXReport.pdf (9 pages, 877124 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
